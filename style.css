@@ -1,0 +1,88 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* STYLING */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(76, 76, 76);
+    background-image: url('https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo');
+    background-size: cover;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+h1 {
+    color: rgb(220, 208, 208);
+    text-decoration: underline;
+}
+.card {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.714);
+    min-height: 350px;
+    max-width: 420px;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+.temp {
+    font-size: 2rem;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button {
+    background-color: rgba(0, 0, 0, 0.656);
+    color: white;
+    margin: 0.5em;
+    height: 4em;
+    width: 4em;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -o-border-radius: 3em;
+}
+.search button:hover {
+    color: rgb(190, 212, 61);
+}
+.search_bar {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.656);
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather div,
+.weather h2 {
+    padding: 0.5em;
+}
