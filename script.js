@@ -19,7 +19,7 @@ let weather = {
         document.querySelector('.temp').innerText = temp.toFixed() + '°C';
         document.querySelector('.humidity').innerText = 'Humidité : ' + humidity + '%';
         document.querySelector('.wind').innerText = 'Vent: ' + speed + ' km/h';
-        
+        document.querySelector('.weather').classList.remove('loading');
         // temp colors
         if(temp > "19"){
             document.querySelector('.temp').style.color = "brown";
@@ -46,3 +46,5 @@ document.addEventListener('keydown', (e) => {
         document.querySelector('.search_bar').value = '';
     }
 });
+
+weather.fetchWeather('rosario')

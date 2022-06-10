@@ -26,7 +26,6 @@ h1 {
 .card {
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.714);
-    min-height: 350px;
     max-width: 420px;
     padding: 2em;
     margin: 1em;
@@ -85,4 +84,12 @@ h1 {
 .weather div,
 .weather h2 {
     padding: 0.5em;
+}
+.weather.loading {
+    visibility: hidden;
+}
+.loading:after {
+    visibility: visible;
+    content: "Chargement...";
+    color: white;
 }
